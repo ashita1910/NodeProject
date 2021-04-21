@@ -1,5 +1,5 @@
 {
-    "name": "node-http",
+    "name": "node-express",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,5 +8,9 @@
         "start": "node index"
     },
     "author": "Ashita Goyal",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "morgan": "^1.10.0"
+    }
 }
